@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kleber Neves</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Kleber Neves</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2017 17:58:11 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pesquisa</title>
+      <link>http://localhost:1313/pesquisa/</link>
+      <pubDate>Thu, 06 Jul 2017 17:58:11 +0000</pubDate>
+      <guid>http://localhost:1313/pesquisa/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;If we knew what it was we were doing, it would not be called research, would it?&amp;rdquo;&lt;br&gt;&#xA;Albert Einstein&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Coleções de links e breves descrições sobre a ciência que eu faço ou já fiz, em tom semi-biográfico.&lt;/p&gt;&#xA;&lt;p&gt;Meus interesses passeiam bastante entre áreas (algo que eu prefiro ver como uma vantagem). Veja detalhes nas páginas abaixo:&lt;/p&gt;&#xA;&lt;p&gt;Metaciência&lt;/p&gt;&#xA;&lt;p&gt;Neurociência e outras coisas&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4321229T8&#34;&gt;Currículo Lattes&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://scholar.google.com.br/citations?user=j_Qu3R8AAAAJ&amp;amp;hl=en&#34;&gt;Perfil do Google Scholar&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://orcid.org/0000-0001-9519-4909&#34;&gt;ORCID&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

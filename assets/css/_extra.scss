@@ -1,0 +1,103 @@
+/*Global styling*/
+
+blockquote {
+    border-left: 0.4em solid rgba($primary-color, .8);
+    margin: 1em 0em;
+    padding: .5em 1em;
+    background: $darkest-color;
+
+    p {
+        margin: .5em 0;
+    }
+}
+
+
+/*Tag page styling*/
+
+.tags-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: none !important;
+}
+
+.tags-list-item div {
+    flex: unset;
+}
+
+.tags-list-item-image {
+    border: solid 3px;
+    border-color: $darkest-color;
+    width: 224px;
+    height: 224px;
+    border-radius: 5%; /* Make the image circular */
+    object-fit: cover; /* Crop image to fit the circle */
+    transition: transform 0.2s; /* Add hover effect */
+}
+
+.tags-list-item-image:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.tags-list-item-summary {
+    font-size: 75%;
+}
+
+.tags-list-item-summary-block {
+    margin-left: 16px;
+    margin-right: 20px;
+    max-width: 320px;
+    width: 100%;
+}
+
+
+
+/*Styling for home page circles*/
+.circle-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; /* Increase gap for more spacing */
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+  
+  .circle-item {
+    text-align: center;
+    width: 160px; /* Fixed width for items */
+  }
+  
+  .circle-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Keep text color consistent */
+  }
+  
+  .circle-item img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Crop image to fit the circle */
+    transition: transform 0.2s; /* Add hover effect */
+  }
+  
+  .circle-item img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  .circle-item h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    transition: color 0.2s; /* Add hover effect */
+  }
+  
+  .circle-item a:hover h3 {
+    color: #009BFF; /* Change title color on hover */
+  }
+  
+  @media screen and (max-width: 450px) {
+    .circle-gallery {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items */
+    }
+  }
+  

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+
+  <ul class="tags-list">
+    {{ $tag := .Params.tag }}
+    {{ range where .Site.Pages "Params.tags" "intersect" (slice $tag) }}
+    <li class="tags-list-item">
+
+      <div>
+        <!-- Post Title -->
+        <a class="tags-list-item-title" href="{{ .Permalink }}">
+          <h4>{{ .Title }}</h4>
+        </a>
+      </div>
+
+      <div>
+        <!-- Post Image -->
+        <a href="{{ .Permalink }}">
+        {{ with .Resources.GetMatch "gamepic1.png" }}
+          <img class="tags-list-item-image" src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+        {{ end }}
+        </a>
+      </div>
+
+      <div class="tags-list-item-summary-block">
+        <!-- Post Summary -->
+        <p class="tags-list-item-summary">
+          {{ .Plain | truncate 180 }}
+        </p>
+      </div>
+
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

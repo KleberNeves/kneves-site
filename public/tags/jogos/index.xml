@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jogos on Kleber Neves</title>
+    <link>http://localhost:1313/tags/jogos/</link>
+    <description>Recent content in Jogos on Kleber Neves</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2017 18:02:51 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jogos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Donkey Kong Trio</title>
+      <link>http://localhost:1313/desenvolvimento-de-jogos/donkey-kong-trio/</link>
+      <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
+      <guid>http://localhost:1313/desenvolvimento-de-jogos/donkey-kong-trio/</guid>
+      <description>&lt;p&gt;Meu tributo a um dos meus jogos/franquias favoritas, Donkey Kong Country. Tentei reproduzir o gameplay original. São 12 fases, me diverti fazendo, tentando evocar o design do original (sem nem chegar perto, é claro, design de platformers não é simples).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/wjnk4fdj5swbsv9/Donkey%20Kong%20Trio.rar?dl=0&#34;&gt;[Baixar]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gamepic1.png&#34; alt=&#34;Game screenshot 1&#34;&gt;&#xA;&lt;img src=&#34;gamepic2.png&#34; alt=&#34;Game screenshot 2&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make the way</title>
+      <link>http://localhost:1313/desenvolvimento-de-jogos/make-the-way/</link>
+      <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
+      <guid>http://localhost:1313/desenvolvimento-de-jogos/make-the-way/</guid>
+      <description>&lt;p&gt;Esse foi o primeiro jogo que eu fiz, sabe-se lá há quanto tempo. A ideia é você desenhar um caminho pra fazer a bola chegar no quadrado.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/vekqxn21o2bltup/Make%20the%20Way.rar?dl=0&#34;&gt;[Baixar]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gamepic1.png&#34; alt=&#34;Game screenshot 1&#34;&gt;&#xA;&lt;img src=&#34;gamepic2.png&#34; alt=&#34;Game screenshot 2&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Orni&#39;s Adventure</title>
+      <link>http://localhost:1313/desenvolvimento-de-jogos/ornis-adventure/</link>
+      <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
+      <guid>http://localhost:1313/desenvolvimento-de-jogos/ornis-adventure/</guid>
+      <description>&lt;p&gt;Um jogo de plataforma onde um ornitorrinco combate alienígenas pra salvar a sua floresta. Não lembro bem qual a história por trás desse, é de uma época em que eu estava fascinado com o absurdo dos ornitorrincos. Ele tem erros no início porque algum arquivo foi perdido em algum momento (eventualmente pretendo corrigir isso). Mas se você clicar em &amp;ldquo;Ignore&amp;rdquo; várias vezes, eventualmente o jogo o começa.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/eprunevplmtkkg6/Orni%27s%20Adventure.rar?dl=0&#34;&gt;[DOWNLOAD]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gamepic1.png&#34; alt=&#34;Game screenshot 1&#34;&gt;&#xA;&lt;img src=&#34;gamepic2.png&#34; alt=&#34;Game screenshot 2&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

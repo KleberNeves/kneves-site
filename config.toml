@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kleber Neves'
+theme = 'hugo-theme-m10c'
+
+[params]
+  author = 'Kleber Neves'
+  description = 'Metacientista e gestor de ciência'
+  avatar = '/img/foto_home.jpg'
+
+[params.style]
+  darkestColor = "#014FA2"
+  darkColor = "#191A23"
+  lightColor = "#E1EBE9"
+  lightestColor = "#006FFF"
+  primaryColor = "#85C0FE"
+
+[[params.social]]
+  icon = "brand-linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/kleber-neves-03290830/"
+
+[[params.social]]
+  icon = "brand-github"
+  name = "Github"
+  url = "https://github.com/KleberNeves"
+
+[[params.social]]
+  icon = "brand-googlescholar"
+  name = "Google Scholar"
+  url = "https://scholar.google.com.br/citations?user=j_Qu3R8AAAAJ&hl=en"
+
+[[params.social]]
+  icon = "brand-orcid"
+  name = "ORCID"
+  url = "https://orcid.org/0000-0001-9519-4909"
+
+[[params.social]]
+  icon = "brand-lattes"
+  name = "Lattes"
+  url = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4321229T8"

@@ -1,0 +1,55 @@
+.app-header {
+  padding: 2em;
+  background: $darkest-color;
+  text-align: center;
+}
+
+.app-header p {
+  font-size: 0.9em;
+}
+
+.app-header-avatar {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  border: 0.3rem solid $primary-color;
+}
+
+.app-container {
+  padding: 2.5rem;
+}
+
+.app-header-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: $lightest-color;
+
+  a:not(:last-child) {
+    margin-right: 0.4em;
+  }
+}
+
+.app-header-title {
+  color: $light-color;
+  display: block;
+  font-size: 1.4em;
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+
+@media (min-width: 940px) {
+  .app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17rem;
+    min-height: 100vh;
+  }
+
+  .app-container {
+    max-width: 65rem;
+    margin-left: 17rem;
+  }
+}
