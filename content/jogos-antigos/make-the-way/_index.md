@@ -9,6 +9,6 @@ Esse foi o primeiro jogo que eu fiz, sabe-se lá há quanto tempo. A ideia é vo
 
 [\[Baixar\]](https://www.dropbox.com/s/vekqxn21o2bltup/Make%20the%20Way.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}
 

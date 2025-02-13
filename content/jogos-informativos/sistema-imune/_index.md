@@ -9,6 +9,6 @@ Jogo de estratégia em tempo real onde você produz as unidades do sistema imune
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/j91pms5lfxyx5z8/ImuneSystemGame.zip?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
-![Game screenshot 3](pic3.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}
+{{< figure src="pic3.png" class="std-figure" alt="Game screenshot 3" >}}

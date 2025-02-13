@@ -8,5 +8,7 @@ Uma adaptação do livro infantil "O Neurônio Apaixonado", do professor [Robert
 
 [Adaptação de texto](https://www.dropbox.com/s/qygf0u1z96j5bpx/Neur%C3%B4nio%20Apaixonado%20-%20roteiro.pdf?dl=0) minha, orçamento de R$ 50, equipe e elenco voluntários. Mas o efeito foi ótimo quando apresentamos como encerramento do Encontro de Extensão do ICB (2015).
 
-![Neurônio apaixonado 1](neuronioapaixonado1.jpg)
-![Neurônio apaixonado 2](neuronioapaixonado2.jpg "Post original [aqui](https://www.instagram.com/p/CQyaiPZp0Fg/?img_index=4), cortesia do [Ciência sobre Rodas](https://www.instagram.com/cienciasobrerodasufrj/).")
+{{< figure src="neuronioapaixonado1.jpg" alt="Neurônio apaixonado 1" class="std-figure" >}}
+{{< figure src="neuronioapaixonado2.jpg" alt="Neurônio apaixonado 2" class="std-figure" >}}
+
+[Ciência sobre Rodas](https://www.instagram.com/cienciasobrerodasufrj/).")

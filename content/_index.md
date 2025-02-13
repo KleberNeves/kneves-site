@@ -14,14 +14,16 @@ Entre em contato (*kleberna, gmail*) ou navegue pelos links abaixo pra saber mai
 
 Se você busca uma minibio/resumo e informações sobre mim, você encontra [aqui](sobre).
 
+
 ### Recente
 
-**29/12/24** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+**fevereiro/25**: Textos antigos sobre [baratas](/divulgacao/sexo-baratas) e [cachorros](/divulgacao/breve-historia-cachorros).
 
-**25/12/24** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+**dezembro/24**: [O azar do Botafogo](/dados/azar-botafogo).
 
-**01/12/24** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+**agosto/24**: Artigo sobre reprodutibilidade de pesquisa clínica: [Estimating the replicability of highly cited clinical research (2004–2018)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307145).
 
+**agosto/24**: Preprint sobre neurônios e redes complexas: [Selective pruning and neuronal death generate heavy-tail network connectivity](https://arxiv.org/abs/2408.02625).
 
 
 {{< rawhtml >}}

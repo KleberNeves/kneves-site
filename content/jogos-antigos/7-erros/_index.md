@@ -9,4 +9,4 @@ Um simples jogo dos 7 erros, com imagens reais. Parte da graça de fazer esse fo
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/nc7eyfpebhjo3lo/7%20erros.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}

@@ -9,4 +9,4 @@ Um minigame simples. Ele te diz uma cor e você tem que parar a bola na platafor
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/2qodkom4mvv0y2n/Moving%20Platforms.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}

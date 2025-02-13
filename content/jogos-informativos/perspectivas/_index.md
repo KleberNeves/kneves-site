@@ -10,5 +10,5 @@ A ideia desse era colocar o jogador no lugar de um animal que sofre com algum im
 [\[DOWNLOAD\]](https://www.dropbox.com/s/25fa9c2h379s1e7/Perspectivas.zip?dl=0)
 ___
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

@@ -9,5 +9,5 @@ Parte do grupo de três jogos onde você controla um médico. Cada um inspirado 
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/uzzepj65hwzvrg6/M.D.%20-%20Emergency%20Medicine.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

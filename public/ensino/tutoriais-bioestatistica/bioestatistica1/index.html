@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Bioestatística com R - 1 - R como Calculadora // Kleber Neves</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.143.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Kleber Neves" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.06d33458fd7410f1511a5622df6645e9ef45e5727c4aa3f484dd4468b118af72.css" />
+    
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bioestatística com R - 1 - R como Calculadora">
+  <meta name="twitter:description" content="Nesse primeiro tutorial, pra se acostumar com R e com o RStudio, a ideia é fazer contas e operações básicas. Nada de estatística por enquanto. Um passinho de cada vez (esse texto assume que você tem R e RStudio instalados e funcionando no seu sistema).
+Parte 1
+Parte 2
+Parte 3
+Parte 4
+Notebooks Primeira coisa é abrir o RStudio e criar um notebook (File &gt; New File &gt; R Notebook).">
+
+    <meta property="og:url" content="http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica1/">
+  <meta property="og:site_name" content="Kleber Neves">
+  <meta property="og:title" content="Bioestatística com R - 1 - R como Calculadora">
+  <meta property="og:description" content="Nesse primeiro tutorial, pra se acostumar com R e com o RStudio, a ideia é fazer contas e operações básicas. Nada de estatística por enquanto. Um passinho de cada vez (esse texto assume que você tem R e RStudio instalados e funcionando no seu sistema).
+Parte 1
+Parte 2
+Parte 3
+Parte 4
+Notebooks Primeira coisa é abrir o RStudio e criar um notebook (File &gt; New File &gt; R Notebook).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ensino">
+    <meta property="article:published_time" content="2017-07-25T12:19:07+00:00">
+    <meta property="article:modified_time" content="2017-07-25T12:19:07+00:00">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/img/foto-home.jpg" alt="Kleber Neves" /></a>
+      <span class="app-header-title">Kleber Neves</span>
+      <p>Metacientista e gestor de ciência</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/kleber-neves-03290830/" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-linkedin" viewBox="0 0 24 24" fill="currentColor"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        
+          <a href="https://github.com/KleberNeves" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+          <a href="https://scholar.google.com.br/citations?user=j_Qu3R8AAAAJ&amp;hl=en" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-googlescholar" viewBox="0 0 24 24" fill="currentColor"><title>Google Scholar</title><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          </a>
+        
+          <a href="https://orcid.org/0000-0001-9519-4909" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-orcid" viewBox="0 0 24 24" fill="currentColor"><title>ORCID</title><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+          </a>
+        
+          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4321229T8" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-lattes" viewBox="0 0 24 24" fill="currentColor"><title>Lattes</title><path d="M4.5888373,23.953341 c -1.35687,-3.473452 -2.6564614,-6.968849 -3.98391182,-10.453562 0.82060122,-0.40001 1.86172402,0.48543 2.79594432,0.472187 3.4935418,0.669352 7.3442842,0.819763 10.5832142,-0.879343 1.655498,-0.805934 3.051174,-2.447955 2.971168,-4.3718414 0.0819,-1.1944455 -0.74443,-2.1914898 -0.77307,-3.3561754 0.603113,-0.093579 1.445775,1.3493574 2.017736,1.9660473 1.747449,2.3074771 2.210962,5.5982035 0.831857,8.1964585 -1.712604,3.67722 -5.418181,5.932705 -9.1326555,7.195289 -1.6878542,0.576243 -3.4350239,0.964996 -5.1900362,1.265385 l -0.120246,-0.03445 z M 8.4880405,13.973514 C 5.8767015,13.470966 3.2465584,13.071237 0.63852883,12.550992 -0.10156498,9.9645292 -0.32698753,7.1145421 0.5190428,4.5248351 1.2506947,2.4191037 3.0347435,0.70291159 5.2374792,0.2285698 8.4247677,-0.45249148 11.742167,0.44264667 14.628524,1.8104924 15.495157,1.9145936 15.544895,2.7860281 14.610189,2.5150825 12.370186,2.2146619 9.8039249,1.817573 7.8509768,3.2524982 6.3953317,4.6576658 6.6239947,6.880539 6.9551285,8.6923981 c 0.333564,1.7613309 0.9796561,3.4425989 1.6634252,5.0931099 0.032747,0.07411 -0.026521,0.227303 -0.1305132,0.188006 z M 12.325941,11.058302 C 10.077888,10.894542 7.8111267,8.9548106 7.9813769,6.5766545 c 0.2119,-1.5370194 1.9751697,-2.4368006 3.4040081,-2.0224832 1.964467,0.3624585 3.915987,1.9852656 3.993392,4.0843639 -0.04041,1.3302553 -1.253251,2.4049378 -2.56387,2.4104958 l -0.244313,0.01486 -0.244653,-0.0056 z"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Bioestatística com R - 1 - R como Calculadora</h1>
+      <div class="post-meta">
+        
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Nesse primeiro tutorial, pra se acostumar com R e com o RStudio, a ideia é fazer contas e operações básicas. Nada de estatística por enquanto. Um passinho de cada vez (esse texto assume que você tem R e RStudio instalados e funcionando no seu sistema).</p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica1">Parte 1</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica2">Parte 2</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica3">Parte 3</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica4">Parte 4</a></p>
+<h3 id="notebooks">Notebooks</h3>
+<p>Primeira coisa é abrir o <strong>RStudio</strong> e criar um notebook (<em>File &gt; New File &gt; R Notebook</em>).</p>
+<p>Notebooks são arquivos em que você pode misturar texto formatado e de exposição com código em R, executável. É ideal pra registrar as suas análises de um modo reprodutível. Você pode criar explicações entre os trechos de código, assim o resultado é o código funcional e já documentado, ótimo pra relatar a análise pra outras pessoas (e pra fazer tutoriais).</p>
+<p>Pronto, notebook criado. Ele já contém algum texto, explicando o básico de como usar um notebook. O que você precisa saber agora é que qualquer código tem que estar dentro de um bloco de código. Pra inserir um bloco de código, o atalho é <em>Ctrl + Alt + I.</em></p>
+<p>Apague o conteúdo que já veio no arquivo - exceto as 4 primeiras linhas, que especificam o título e o output. Mude o título como preferir (lembre que ele deve estar entre aspas).</p>
+<h3 id="r-como-calculadora">R como Calculadora</h3>
+<p>Agora crie o primeiro bloco de código com o atalho (<em>Ctrl + Alt + I</em>). Digite o código abaixo no bloco de código criado.</p>
+<pre tabindex="0"><code># Variável a
+a = 5
+a
+</code></pre><p>Ele deve mostrar <strong>[1] 5</strong>. O que essas duas linhas de código fizeram?</p>
+<pre tabindex="0"><code>a = 5
+</code></pre><p>Cria uma variável a e armazena o valor 5 nela. Uma observação importante: o símbolo de igual = e a setinha pra esquerda &lt;- são equivalentes em R. Significam algo como “armazene a coisa à direita na coisa à esquerda”.</p>
+<pre tabindex="0"><code>a
+</code></pre><p>Isso faz com que o R te mostre o valor de a, que no caso é 5, porque fizemos isso na linha de cima.</p>
+<pre tabindex="0"><code># Variável a
+</code></pre><p>Essa linha não faz nada. Como ela começa por <strong>#</strong>, ela é um comentário. Comentários (qualquer linha iniciada por <strong>#</strong>) são ignorados pelo R, só servem pra nós, humanos. Comentar o seu código de maneira informativa é um excelente hábito pra um programador. Primeiro, pra ajudar outras pessoas que venham a ler e tentar entender o seu código. Segundo, pra você mesmo se entender … não importa o quão claro e auto-explicativo seja o seu código, se você ficar dois dias sem vê-lo você vai esquecer o que estava pensando na hora.</p>
+<p>Ok. Então você sabe como criar variáveis. Agora, façamos operações com elas.</p>
+<pre tabindex="0"><code># Operações
+b = 3
+c = a + b
+c
+</code></pre><p>Bom, tente adivinhar o que isso vai mostrar.</p>
+<p>A resposta é 8. Coisas importantes aqui: (1) R não esquece facilmente. O valor de <strong>a</strong> que atribuímos antes ainda está lá. (2) Operações funcionam como se imaginaria. As quatro básicas são +, -, * e /. (3) Experimente. Veja os exemplos abaixo.</p>
+<pre tabindex="0"><code># Operações básicas
+a * 5
+[1] 25
+
+b + 10
+[1] 13
+
+c / 2
+[1] 4
+
+c / 3
+[1] 2.666667
+
+2 * (a + b + c - 1)
+[1] 30
+
+# Potência
+a ^ 2 # 5 ao quadrado
+[1] 25
+</code></pre><p>R não se limita a operações aritméticas básicas, é claro. Você também pode aplicar funções, várias já existem em R sem você precisar fazer nada.</p>
+<pre tabindex="0"><code>cos(360)
+[1] -0.2836911
+
+cos(2*pi)
+[1] 1
+
+tan(pi/4)
+[1] 1
+
+log(10)
+[1] 2.302585
+
+log10(10)
+[1] 1
+</code></pre><p>Note que: (1) cosseno de 360 não é 1 … Por que? R assume que você está dizendo ângulos em radianos, não em graus. (2) Teste calcular o seno de pi radianos (180º) ou a tangente de pi/2 radianos (90º). Tente entender o que significa o resultado. (3) A função <strong>log()</strong> usa como base a constante de Euler (<strong>e</strong>). Pra calclular com base 10, exsite outra função: <strong>log10()</strong>.</p>
+<h3 id="juros-compostos">Juros compostos</h3>
+<p>Podemos tentar fazer coisas mais sofisticadas agora. Digamos que você tem um problema clássico de livro-texto, sobre juros compostos.</p>
+<p>Você recebeu R$ 10.000,00 e investiu num fundo com rendimento de 5% ao ano, por 10 anos. Qual a soma total no final dos 10 anos?</p>
+<pre tabindex="0"><code>inicial = 10000 # R$ 10.000,00
+juros = 5 / 100 # 5%
+tempo = 10 # 10 anos
+final = inicial * (1 + juros) ^ tempo
+final
+
+[1] 16288.95
+</code></pre><p>E se for por 20 anos? E se começar com metade do dinheiro? E se os juros triplicarem? A graça é que agora basta mudar uma linha do código acima pra chegar no novo resultado.</p>
+<h3 id="outros-tipos-de-variáveis">Outros tipos de variáveis</h3>
+<p>Além de números, variáveis em R também podem armazenar caracteres e palavras (além de objetos mais complexos, como tabelas e dados &hellip; mas fica pra depois). Esses caracteres, do tipo <strong>string</strong>, são sempre colocados entre aspas:</p>
+<pre tabindex="0"><code>palavra = &#34;tutorial&#34;
+palavra
+
+[1] &#34;tutorial&#34;
+</code></pre><p>Outro tipo importante é o tipo lógico. Variáveis desse tipo só podem ter dois valores: <strong>TRUE</strong> ou <strong>FALSE</strong> (também pode ser <strong>T</strong> e <strong>F</strong>). E eles tem as próprias operações. Por exemplo, imagine duas variáveis:</p>
+<p>         <em>chuva:</em> que diz se está chovendo</p>
+<p>         <em>guardachuva:</em> se eu tenho um guarda-chuva molhado: diz se eu vou ficar molhado</p>
+<p>Eu só fico molhado se estiver chovendo E se eu NÃO tiver guarda-chuva. Ou, em outras palavras, eu fico seco (NÃO molhado) se NÃO estiver chovendo OU se eu tiver guarda-chuva.</p>
+<p>Agora, em R, o símbolo <strong>&amp;</strong> representa E, o símbolo <strong>|</strong> representa OU e o símbolo <strong>!</strong> representa NÃO.</p>
+<p>Expresso em R, isso fica assim:</p>
+<pre tabindex="0"><code>chuva = TRUE
+guardachuva = FALSE
+molhado = chuva &amp; !guardachuva
+seco = !chuva | guardachuva
+molhado
+
+[1] TRUE
+</code></pre><p>Teste mudar os valores de chuva e guardachuva pra ver se ficamos molhados ou secos.</p>
+<h3 id="vetores">Vetores</h3>
+<p>Uma última coisa, pra começarmos a entender a graça de R.</p>
+<p>Além de variáveis que armazenam um único valor (seja ele um valor numérico, string/caracteres ou lógico ou qualquer coisa), também existem variáveis que armazenam conjuntos de valores. Existem vários tipos de “conjuntos”, mas por enquanto falaremos só dos vetores, que armazenam vários objetos do mesmo tipo (qualquer tipo, desde que todos do mesmo).</p>
+<p>Vetores são criados com a função <strong>c()</strong> (<em>c</em> de combine). Exemplos:</p>
+<pre tabindex="0"><code>v = c(1,2,3)
+w = c(a,b,s)
+sudeste = c(&#34;RJ&#34;,&#34;SP&#34;,&#34;ES&#34;,&#34;MG&#34;)
+logicos = c(TRUE,FALSE,FALSE,TRUE,FALSE)
+</code></pre><p>Bem legal e tal &hellip; mas e daí? E daí que você pode fazer operações em vetores. Qualquer coisa que você faz em um objeto único, isolado, você pode fazer em vetores. R entende, em geral, que você quer fazer aquilo com cada um dos elementos do vetor.</p>
+<p>Por exemplo. Digamos que eu tenho vários números que eu quero elevar ao quadrado. Podemos fazer como antes:</p>
+<pre tabindex="0"><code>n1 = 3
+n2 = 20
+n3 = 5
+
+n1 ^ 2
+n2 ^ 2
+n3 ^ 2
+
+[1] 9
+[2] 400
+[3] 25
+</code></pre><p>Legal. E usando um vetor?</p>
+<pre tabindex="0"><code>n = c(3,20,5)
+n ^ 2
+
+[1] 9 400 25
+</code></pre><p>Problema: na minha pequena empresa eu tenho 3 funcionários, que ganham R$ 2000, R$ 1500 e R$ 1200. Quero dar um aumento de 10% pra cada um. Quanto vou pagar de salário com esse aumento?</p>
+<pre tabindex="0"><code>salarios = c(2000,1500,1200)
+salarios.com.aumento = salarios * 1.1
+salarios.com.aumento
+
+[1] 2200 1650 1320
+</code></pre><p>Temos os salários pós-aumento. Mas e se eu quiser a soma deles? Bom, como são só três, você poderia fazer de cabeça ou no papel. Mas, a proposta aqui é exatamente deixar o R fazer isso por você. Convenientemente, existe uma função que soma todos os valores de um vetor, o nome é <strong>sum(vetor)</strong>.</p>
+<p>(PARÊNTESES SOBRE FUNÇÕES: funções recebem alguma informação sua e devolvem outra. A informação recebida é o conjunto de argumentos da função, que vem entre aprênteses depois do nome. É exatamente como no seno e cosseno ou log. A função <strong>sin(angulo)</strong> recebe um número, que ela interpreta como um ângulo em radianos e retorna o valor do seno desse ângulo. Ela recebe um número e retorna um número. A função <strong>sum(vetor)</strong> é um pouco diferente. Ela recebe um vetor de números e retorna um número (a soma dos números contidos no vetor). E existem inúmeras outras funções muito mais complicadas que essas e você pode criar as suas próprias funções também! Em outro momento …)</p>
+<p>Então, parênteses fechado, você pode saber o total rapidamente:</p>
+<pre tabindex="0"><code>total = sum(salarios.com.aumento)
+total
+
+[1] 5170
+</code></pre><p>E a diferença entre o gasto antes e depois do aumento?</p>
+<pre tabindex="0"><code>diferenca = sum(salarios.com.aumento) - sum(salarios)
+diferenca
+
+[1] 470
+</code></pre><p>Última coisa. Imagina que você quer saber quantos dos funcionários ganharão mais do que dois salários mínimos após o aumento.</p>
+<pre tabindex="0"><code>salario.minimo = 937
+ganham.mais = salarios.com.aumento &gt; salario.minimo * 2
+ganham.mais
+[1] TRUE FALSE FALSE
+</code></pre><p>O resultado é TRUE, FALSE, FALSE. Quer dizer que R já fez as comparações, uma por uma, e reportou. E só um dos funcionários (o primeiro) ganhará mais do que dois salários mínimos.</p>
+<hr>
+<p>Espero que isso dê uma amostra do que dá pra fazer com R. Especialmente esse final, a naturalidade com que R faz operações com vetores, é importante pra R ser útil e divertido.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

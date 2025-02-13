@@ -9,4 +9,4 @@ Um dos primeiros jogos que eu fiz. Você monta sanduíches de acordo com os pedi
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/gzy35as7x6egijj/Lanchonete.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}

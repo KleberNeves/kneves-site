@@ -9,6 +9,6 @@ Um jogo de plataforma onde um ornitorrinco combate alienígenas pra salvar a sua
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/eprunevplmtkkg6/Orni%27s%20Adventure.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
-![Game screenshot 3](pic3.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}
+{{< figure src="pic3.png" class="std-figure" alt="Game screenshot 3" >}}

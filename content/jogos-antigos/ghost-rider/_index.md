@@ -9,5 +9,5 @@ Jogo de ação/plataforma, da época do filme. São só três fases. Não gosto 
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/xq2hqoe6tux4hc0/Ghost%20Rider.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

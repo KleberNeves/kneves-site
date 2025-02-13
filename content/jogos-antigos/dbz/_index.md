@@ -9,5 +9,5 @@ Minha tentativa de fazer um jogo de luta. Não ficou bom. Tá aí só pra regist
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/p1m3l2cpat30t02/DBZ.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

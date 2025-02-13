@@ -30,11 +30,11 @@ relURL }}
       <img itemprop="thumbnail" src="{{ $src }}" {{ with .Get "alt" | default (.Get "caption" ) }}alt="{{.}}" {{ end
         }} /><!-- <img> hidden if in .gallery -->
     </div>
-    {{ with .Get "link" | default (.Get "src") }}<a href="{{. | relURL}}" itemprop="contentUrl"></a>{{ end }}
+    <!-- {{ with .Get "link" | default (.Get "src") }}<a href="{{. | relURL}}" itemprop="contentUrl"></a>{{ end }} -->
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") (.Get "attrlink") }}
     <figcaption>
       {{- with .Get "title" }}<h4>{{.}}</h4>{{ end }}
-      {{- with .Get "caption" }}<p>{{.}}</p>{{ end }}
+      {{- with .Get "caption" }}<p>{{. | markdownify }}</p>{{ end }}
       {{- if or (.Get "attr") (.Get "attrlink") }}
       <footer><small>{{if .Get "attrlink"}}<a href="{{.Get `attrlink`}}">{{ default (.Get "attrlink") (.Get "attr")
             }}</a>{{ else }}{{ .Get "attr"}}{{ end }}</small></footer>

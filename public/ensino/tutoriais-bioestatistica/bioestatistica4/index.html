@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Bioestatística com R - 4 - Correlação e Regressão // Kleber Neves</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.143.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Kleber Neves" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.06d33458fd7410f1511a5622df6645e9ef45e5727c4aa3f484dd4468b118af72.css" />
+    
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bioestatística com R - 4 - Correlação e Regressão">
+  <meta name="twitter:description" content="Esse é o último tutorial dessa introdução mínima a bioestatística com R. Vamos analisar correlações entre variáveis e fazer uma regressão. Todas as tabelas usadas nos exemplos estão nessa pasta compartilhada.
+Parte 1
+Parte 2
+Parte 3
+Parte 4
+Correlação Pra começar, vamos importar duas tabelas novas. Uma possui dados sobre o tamanho do corpo de diferentes animais e a outra sobre longevidade de diferentes animais: bodymass.csv e longevity.csv
+body.size.data = read.table(&#34;bodymass.csv&#34;, sep=&#34;;&#34;, header = T) longevity.data = read.table(&#34;longevity.csv&#34;, sep=&#34;;&#34;, header = T) O primeiro passo é fundir as duas tabelas, pra conseguir uma tabela que tenha animais com seus respectivos tamanhos corporais e longevidades. Pra isso, existe a função merge. Mas antes, vale olhar as tabelas, pra saber como fazer isso.">
+
+    <meta property="og:url" content="http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica4/">
+  <meta property="og:site_name" content="Kleber Neves">
+  <meta property="og:title" content="Bioestatística com R - 4 - Correlação e Regressão">
+  <meta property="og:description" content="Esse é o último tutorial dessa introdução mínima a bioestatística com R. Vamos analisar correlações entre variáveis e fazer uma regressão. Todas as tabelas usadas nos exemplos estão nessa pasta compartilhada.
+Parte 1
+Parte 2
+Parte 3
+Parte 4
+Correlação Pra começar, vamos importar duas tabelas novas. Uma possui dados sobre o tamanho do corpo de diferentes animais e a outra sobre longevidade de diferentes animais: bodymass.csv e longevity.csv
+body.size.data = read.table(&#34;bodymass.csv&#34;, sep=&#34;;&#34;, header = T) longevity.data = read.table(&#34;longevity.csv&#34;, sep=&#34;;&#34;, header = T) O primeiro passo é fundir as duas tabelas, pra conseguir uma tabela que tenha animais com seus respectivos tamanhos corporais e longevidades. Pra isso, existe a função merge. Mas antes, vale olhar as tabelas, pra saber como fazer isso.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ensino">
+    <meta property="article:published_time" content="2017-07-25T12:24:12+00:00">
+    <meta property="article:modified_time" content="2017-07-25T12:24:12+00:00">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/img/foto-home.jpg" alt="Kleber Neves" /></a>
+      <span class="app-header-title">Kleber Neves</span>
+      <p>Metacientista e gestor de ciência</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/kleber-neves-03290830/" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-linkedin" viewBox="0 0 24 24" fill="currentColor"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        
+          <a href="https://github.com/KleberNeves" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+          <a href="https://scholar.google.com.br/citations?user=j_Qu3R8AAAAJ&amp;hl=en" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-googlescholar" viewBox="0 0 24 24" fill="currentColor"><title>Google Scholar</title><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          </a>
+        
+          <a href="https://orcid.org/0000-0001-9519-4909" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-orcid" viewBox="0 0 24 24" fill="currentColor"><title>ORCID</title><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+          </a>
+        
+          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4321229T8" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-lattes" viewBox="0 0 24 24" fill="currentColor"><title>Lattes</title><path d="M4.5888373,23.953341 c -1.35687,-3.473452 -2.6564614,-6.968849 -3.98391182,-10.453562 0.82060122,-0.40001 1.86172402,0.48543 2.79594432,0.472187 3.4935418,0.669352 7.3442842,0.819763 10.5832142,-0.879343 1.655498,-0.805934 3.051174,-2.447955 2.971168,-4.3718414 0.0819,-1.1944455 -0.74443,-2.1914898 -0.77307,-3.3561754 0.603113,-0.093579 1.445775,1.3493574 2.017736,1.9660473 1.747449,2.3074771 2.210962,5.5982035 0.831857,8.1964585 -1.712604,3.67722 -5.418181,5.932705 -9.1326555,7.195289 -1.6878542,0.576243 -3.4350239,0.964996 -5.1900362,1.265385 l -0.120246,-0.03445 z M 8.4880405,13.973514 C 5.8767015,13.470966 3.2465584,13.071237 0.63852883,12.550992 -0.10156498,9.9645292 -0.32698753,7.1145421 0.5190428,4.5248351 1.2506947,2.4191037 3.0347435,0.70291159 5.2374792,0.2285698 8.4247677,-0.45249148 11.742167,0.44264667 14.628524,1.8104924 15.495157,1.9145936 15.544895,2.7860281 14.610189,2.5150825 12.370186,2.2146619 9.8039249,1.817573 7.8509768,3.2524982 6.3953317,4.6576658 6.6239947,6.880539 6.9551285,8.6923981 c 0.333564,1.7613309 0.9796561,3.4425989 1.6634252,5.0931099 0.032747,0.07411 -0.026521,0.227303 -0.1305132,0.188006 z M 12.325941,11.058302 C 10.077888,10.894542 7.8111267,8.9548106 7.9813769,6.5766545 c 0.2119,-1.5370194 1.9751697,-2.4368006 3.4040081,-2.0224832 1.964467,0.3624585 3.915987,1.9852656 3.993392,4.0843639 -0.04041,1.3302553 -1.253251,2.4049378 -2.56387,2.4104958 l -0.244313,0.01486 -0.244653,-0.0056 z"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Bioestatística com R - 4 - Correlação e Regressão</h1>
+      <div class="post-meta">
+        
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Esse é o último tutorial dessa introdução mínima a bioestatística com R. Vamos analisar correlações entre variáveis e fazer uma regressão. Todas as tabelas usadas nos exemplos estão nessa <a href="https://www.dropbox.com/sh/pb9fsbex5hh4nw3/AADxjjUGC5gUUvfM4vs8M6zwa?dl=0">pasta compartilhada</a>.</p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica1">Parte 1</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica2">Parte 2</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica3">Parte 3</a></p>
+<p><a href="/ensino/tutoriais-bioestatistica/bioestatistica4">Parte 4</a></p>
+<hr>
+<h3 id="correlação">Correlação</h3>
+<p>Pra começar, vamos importar duas tabelas novas. Uma possui dados sobre o tamanho do corpo de diferentes animais e a outra sobre longevidade de diferentes animais: <a href="https://www.dropbox.com/sh/pb9fsbex5hh4nw3/AADxjjUGC5gUUvfM4vs8M6zwa?dl=0">bodymass.csv e longevity.csv</a></p>
+<pre tabindex="0"><code>body.size.data = read.table(&#34;bodymass.csv&#34;, sep=&#34;;&#34;, header = T)
+longevity.data = read.table(&#34;longevity.csv&#34;, sep=&#34;;&#34;, header = T)
+</code></pre><p>O primeiro passo é fundir as duas tabelas, pra conseguir uma tabela que tenha animais com seus respectivos tamanhos corporais e longevidades. Pra isso, existe a função merge. Mas antes, vale olhar as tabelas, pra saber como fazer isso.</p>
+<pre tabindex="0"><code>head(body.size.data)
+head(longevity.data)
+</code></pre><p>A função <strong>head</strong> mostra as primeiras linhas de uma tabela. O problema aqui é o seguinte: a coluna <strong>Species</strong> da tabela de tamanhos contém o nome completo da espécie. Já na outra tabela, gênero e espécie estão separados. Mas pra função <strong>merge</strong> funcionar, ela precisa de colunas de mesmo nome nas duas tabelas, que é o que ela vai usar pra comparar e mesclar os dados. Pra isso, precisamos usar <strong>mutate</strong> pra fazer com que a coluna <strong>Species</strong> da tabela de longevidade contenha o nome completo.</p>
+<pre tabindex="0"><code>library(dplyr)
+longevity.data = longevity.data %&gt;%
+  mutate(Species = paste(Genus, Species, sep = &#34; &#34;))
+</code></pre><p>A função <strong>paste</strong> serve pra “colar” várias sequências de caracteres (strings) em uma só, separadas por um caractere (nesse caso, um espaço). Agora, mesclamos as tabelas numa nova:</p>
+<pre tabindex="0"><code>wdata = merge(body.size.data, longevity.data, by = &#34;Species&#34;)
+summary(wdata)
+</code></pre><p>O resultado tem 666 espécies, mais do que suficiente pra usarmos aqui. Usando <strong>ggplot</strong>, podemos investigar visualmente a relação entre tamanho corporal e longevidade.</p>
+<pre tabindex="0"><code>library(ggplot2)
+qplot(data = wdata, x = log(Body.mass), y = Maximum.longevity..yrs.)
+</code></pre><p>Note que transformamos o tamanho corporal, pra uma escala logarítmica. E finalmente, a correlação é calculada com a função <strong>cor</strong>.</p>
+<pre tabindex="0"><code>cor(x = wdata$Body.mass, y = wdata$Maximum.longevity..yrs.,
+  use = &#34;pairwise.complete.obs&#34;)
+[1] 0.3290608
+</code></pre><p>O argumento <strong>use</strong> serve pra indicar o que fazer com valores que não estão na tabela (por exemplo, uma espécie que esteja faltando um valor de longevidade). Valores que estejam faltando são representados por <strong>NA</strong> em R (<em>not available</em>). Nesse caso, a ordem é usar só as linhas (observações) que possuam o par de valores completo.</p>
+<h3 id="regressão">Regressão</h3>
+<p>Um passo além é fazer uma regressão linear. Saber qual a reta que melhor explica a relação entre as duas variáveis em questão. Pra isso, temos que rodar um modelo linear. A função é <strong>lm</strong>.</p>
+<pre tabindex="0"><code>modelo = lm(data = wdata, Maximum.longevity..yrs. ~ Body.mass)
+</code></pre><p>O lado esquerdo do <strong>~</strong>, na fórmula, indica a variável dependente. Do lado direito, a variável independente. Investigando o modelo, você descobre várias coisas:</p>
+<pre tabindex="0"><code>modelo
+summary(modelo)
+
+Coefficients:
+               Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)     -1.3126     1.0939   -1.20    0.231    
+log(Body.mass)   4.1120     0.1971   20.86   &lt;2e-16 ***
+</code></pre><p>Dá pra ver o valor de p e os coeficientes da reta, por exemplo. Agora, um detalhe. Na verdade plotamos o logaritmo da massa corporal. Então, vamos refazer o modelo com o logaritmo:</p>
+<pre tabindex="0"><code>modelo = lm(data = wdata, Maximum.longevity..yrs. ~ log(Body.mass))
+modelo
+summary(modelo)
+</code></pre><p>E a última coisa, pra fechar com chave de ouro. Mostrar a reta de regressão num plot. Sendo uma regressão linear, é bem fácil com <strong>ggplot</strong>:</p>
+<pre tabindex="0"><code>p = qplot(data = wdata, x = log(Body.mass), y = Maximum.longevity..yrs.) +
+ geom_smooth(method = &#34;lm&#34;)
+p
+</code></pre><p>E voilá. A função <strong>geom_smooth()</strong> faz tudo pra você: roda o modelo (especificado como <strong>lm</strong>, como usamos antes), extrai os coeficientes e plota a reta, com o intervalo de confiança sombreado.</p>
+<hr>
+<p>Espero que esses quatro tutoriais tenham servido pra quebrar o gelo em relação a usar R pra fazer análises simples. Que seja o início, primeiro passo pra análises mais complexas num futuro próximo, porque seria um desperdício não continuar se aprofundando em R, dá pra fazer muito mais do que eu mostrei aqui. Isso foi mesmo só pra facilitar uma transição, um começo. :)</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

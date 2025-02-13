@@ -9,5 +9,5 @@ Um jogo de vôlei. Eu fiz um outro depois, que eu acho bem melhor. Eu lembro que
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/bd7bm0jz7171w4t/Volley%201.0.rar?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

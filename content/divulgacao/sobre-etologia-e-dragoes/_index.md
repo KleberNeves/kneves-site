@@ -6,7 +6,7 @@ title: Sobre etologia e dragões
 ---
 Eu gosto bastante de animações. _Pixar_, _Disney_, _DreamWorks_. Confesso que _[Como treinar seu dragão](https://www.youtube.com/watch?v=oKiYuIsPxYk)_ parecia até meio bobo pelo título mas acabou se tornando uma das minhas animações favoritas. A história é ótima, a qualidade gráfica também, dragões sempre ajudam. Mas uma coisa que me chamou a atenção foi o comportamento desses dragões no filme.
 
-![HTTYD](httyd.jpg "Soluço e Banguela.")
+{{< figure src="httyd.jpg" alt="HTTYD" class="std-figure" caption="Soluço e Banguela." >}}
 
 **Spoilers abaixo!**
 
@@ -16,13 +16,13 @@ Agora, essa coisa toda de observar comportamentos e respostas pré-definidas (o 
 
 Etologia é o estudo do comportamento animal em condições naturais, em oposição a estudar em condições artificiais num laboratório. A etologia começou com três caras (que depois ganharam o prêmio Nobel por esse trabalho pioneiro): [Konrad Lorenz](https://pt.wikipedia.org/wiki/Konrad_Lorenz), [Nikolaas Tinbergen](https://pt.wikipedia.org/wiki/Nikolaas_Tinbergen) e [Karl von Frisch](https://pt.wikipedia.org/wiki/Karl_Ritter_von_Frisch).  
 
-![Nobel winners](nobel1973.jpeg "Os vencedores do Nobel de 1973.")
+{{< figure src="nobel1973.jpeg" alt="Nobel winners" class="std-figure" caption="Os vencedores do Nobel de 1973." >}}
 
 Lorenz estudou o comportamento de corvos, gansos, insetívoros e várias outras espécies (ele conta vários episódios interessantes no livro [King Solomon's Ring](http://www.estantevirtual.com.br/q/falava-com-bestas-aves-peixes)). O trabalho mais importante de Karl von Frisch foi entender o significado da comunicação por [dança das abelhas](https://www.youtube.com/watch?v=bFDGPgXtK-U). Tinbergen (grande amigo de Lorenz até brigarem: um era judeu e o outro nazista) passou um bom tempo explorando os chamados padrões fixos de ação - uma sequência de comportamentos que é automaticamente disparada por um estímulo específico, bem como o que o Soluço explora nos dragões do filme (e mais claramente ainda na [série do Cartoon Network](https://www.youtube.com/watch?v=KZdyn2ofCXA)).
 
 Uma boa história da etologia vem dos peixes. O peixinho _stickleback_ (da família _Gasterosteidae_, se alguém quiser saber) fica agressivo e territorialista durante a época de acasalamento. Ele ataca outros machos que se metem a nadar pela sua área.  
 
-![Stickleback](stickleback.jpg "O peixinho stickleback. Pavio curto.")
+{{< figure src="stickleback.jpg" alt="Stickleback" class="std-figure" caption="O peixinho stickleback. Pavio curto." >}}
 
 A questão é: como ele sabe que o que ele está atacando é um outro macho? Será que ele tem um sistema visual complexo que reconhece um peixe macho rival? Niko Tinbergen suspeitou que o peixe não tinha um sistema tão sofisticado pra reconhecer peixes machos da sua espécie. Talvez ele tivesse um macete qualquer.
 
@@ -42,7 +42,7 @@ Se lembra um peixe e tem a barriga vermelha: ao ataque. Por outro lado, o _stick
 
 Às vezes, comportamentos complexos seguem fórmulas simples, que podem ser facilmente manipuladas. O stickleback não está sozinho nessa: vários insetos que são predados por morcegos (que emitem ultrassom) pousam e ficam completamente imóveis quando ouvem ultrassom - pra passarem despercebidos pelo morcego. Outro exemplo: o próprio Tinbergen descobriu que um tipo de vespa usa a paisagem ao redor pra saber onde está a sua toca - se você desloca alguns gravetos e arbustos para o lado com cuidado, a vespa pousa no lugar errado (e imagina-se, entra num conflito interno similar à sensação de "onde eu deixei minha chave?").  
 
-![Cobra](snake.jpg "Cobra! Primeiro você corre, depois você para pra pensar do que está correndo.")
+{{< figure src="snake.jpg" alt="Cobra" class="std-figure" caption="Cobra! Primeiro você corre, depois você para pra pensar do que está correndo." >}}
 
 E nós fazemos a mesma coisa em alguns casos. A nossa resposta a cobras (predadores com quem nossos ancestrais convivem [há muitos milhões de anos](http://anthropology.ucdavis.edu/people/laisbell/pdf/Isbell%20JHE%202006.pdf)) é extremamante rápida. Você tem [neurônios específicos](http://www.the-scientist.com/?articles.view/articleNo/38053/title/Snakes-on-a-Visual-Plane/) que reagem a imagens de cobras - provavelmente antes mesmo de você se dar conta que viu uma cobra. E, para seu alívio, às vezes é só um cipó ou uma raiz. Ou foi só algo parecido com uma cobra que um pesquisador colocou ali pra estudar o seu comportamento.
 

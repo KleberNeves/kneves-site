@@ -11,14 +11,14 @@ Baratas andam no esgoto, carregam inúmeros tipos de bactérias, fungos, vírus,
 
 Por exemplo, elas vivem relativamente bem sem cabeça. Sim, elas teriam menos problemas com radiação do que nós. Elas comem qualquer coisa - sabão, couro, cabelo, papel, queijo, outras baratas, aquele pedacinho de biscoito que você deixou cair semana passada entre o sofá e a parede - e sobrevivem muito tempo sem comer. Ainda, elas possuem a incrível capacidade de, em poucos segundos e sem esforço quase nenhum, fazer algumas pessoas passarem de um estado relaxado e tranquilo para um estado louco, de completo desespero. Em grande sacada comercial, várias empresas criaram toda uma indústria em cima dessa capacidade das baratas.
 
-![SBP](sbp.jpg "Grande sacada comercial.")
+{{< figure src="sbp.jpg" alt="SBP" class="std-figure" caption="Grande sacada comercial." >}}
 
 Tem outro aspecto interessante da vida das baratas. Um mais íntimo. Você já se perguntou como baratas se reproduzem? Não? Eu já (e talvez eu tenha um problema).
 
 Assim como em humanos (às vezes), antes do ato de cópula em si, há toda a fase de corte. A barata macho tenta seduzir a fêmea com demonstrações de sua virilidade, tentando seduzi-la, mostrar que é um bom pretendente. O macho da barata começa a flertar na presença de feromônios, substâncias liberadas pela fêmea quando ela está pronta para acasalar. Pra começar, o macho fica muito mais ativo: se movimentando e correndo mais do que o normal, fazendo movimentos rápidos com as antenas. Mas nada se compara a todo o lance sexy de se virar de costas para a fêmea com as asas erguidas, exibindo seu corpo escultural e secretando substâncias pra atrair a fêmea    .
 
 Vejamos uma ilustração:
-![Ilustração baratas](courtship-copulation.png "Adaptado de *Cockroaches: Ecology, Behavior, and Natural History*.")
+{{< figure src="courtship-copulation.png" alt="Ilustração baratas" class="std-figure" caption="Adaptado de *Cockroaches: Ecology, Behavior, and Natural History*." >}}
 
 Lindo, né? Se a sua curiosidade supera o seu nojo, você pode ver a coisa real, em vídeo (incrível o que você encontra na internet). Preciso alertar para o fato de que o vídeo abaixo contém imagens explícitas e fortes de sexo entre duas baratas (como bônus, você pode ver os vídeos que o algoritmo do YouTube vai passar a te sugerir a partir de agora: inúmeras espécies diferentes se cortejando e copulando).
 

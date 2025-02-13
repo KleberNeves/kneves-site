@@ -9,5 +9,5 @@ A mecânica é um misto de golfe e futebol. Você tem um posicionamento de jogad
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/lvczbqy8a8wws7t/Golfutebol.zip?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

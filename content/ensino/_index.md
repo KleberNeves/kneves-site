@@ -40,7 +40,7 @@ Ofereci worskhops de uma tarde ou duas sobre [R](http://cran.r-project.org/). Te
 
 Em algum momento escrevi tutoriais também que eu usava no curso:
 
-[Tutorial - Introdução à Bioestatística com R (2017):](http://kneves.org/notas/tutorial-bioestatistica-com-r/) Curta série de tutoriais, ideal pra alguém já familiarizado com bioestatística e que quer dar uma chance pra R. Escrito há muitos anos, quando eu mesmo não sabia muito R, não envelheceu muito bem.
+[Tutorial - Introdução à Bioestatística com R (2017):](/ensino/tutoriais-bioestatistica/bioestatistica1) Curta série de tutoriais, ideal pra alguém já familiarizado com bioestatística e que quer dar uma chance pra R. Escrito há muitos anos, quando eu mesmo não sabia muito R, não envelheceu muito bem.
 
 #### Neuroeducação
 

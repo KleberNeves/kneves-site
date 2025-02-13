@@ -21,12 +21,6 @@ Coisas relacionadas a jogos e jogos mais recentes que não se encaixam nas categ
 
 Para pessoas que gostam de discutir temas apaixonadamente por hobby, esse jogo gera uma infinidade de polêmicas vazias [(nome de um bom quadro esportivo)](https://www.youtube.com/playlist?list=PL-e7oyEds72_1Q4DXnARDspsQ10EyaXjn).
 
-#### [Imagem & Ação com temas científicos](/app/imagem-acao-ciencia) 
-
-Para brincar de mímica com cientistas (nas versões biologia, neurociências e ecologia).
-
-Se preferir imprimir, tem os arquivos [aqui](https://www.dropbox.com/scl/fo/7ymtsg4csusij2xyq01mf/AIzz1egpz3YgaBxbbFxNl8M?rlkey=aacwm29o6s5hayc5lqip8lh5f&dl=0).
-
 #### [Gerador de videogames](/app/gerador-videogames)
 
 Um gerador de propostas para videogames, feito com a intenção de ajudar a pensar em ideias de jogos e *game design*.

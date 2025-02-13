@@ -9,5 +9,5 @@ Esse eu fiz quando eu joguei Prince of Persia no meu antigo PlayStation 2. Queri
 
 [\[DOWNLOAD\]](https://www.dropbox.com/s/2udmn0qj8tt28qh/Prince%20of%20Persia%20-%20The%20Stickmen.zip?dl=0)
 
-![Game screenshot 1](pic1.png)
-![Game screenshot 2](pic2.png)
+{{< figure src="pic1.png" class="std-figure" alt="Game screenshot 1" >}}
+{{< figure src="pic2.png" class="std-figure" alt="Game screenshot 2" >}}

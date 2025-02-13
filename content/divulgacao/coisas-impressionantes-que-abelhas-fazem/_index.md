@@ -10,7 +10,7 @@ Tamanho do cérebro importa? As abelhas diriam que não. Com seus ínfimos cére
 
 De toda o espectro de luz que existe no mundo, em diferentes comprimentos de onda, como humanos, vemos apenas uma pequena parte. Essa parte é chamada de, previsivelmente, o “espectro visível”.  
 
-![espectro](spectrum.jpg)
+{{< figure src="spectrum.jpg" alt="espectro" class="std-figure" >}}
 
 Logo abaixo do vermelho (o menor comprimento de onda que enxergamos) tem o infra-vermelho e logo acima do violeta o ultra-violeta. Aí que entra a visão das abelhas: enquanto nós paramos no violeta elas nos ultrapassam e veem também o ultra-violeta.
 
@@ -18,7 +18,7 @@ Isso não é exclusividade das abelhas - aves também veem uma parte maior do es
 
 Quando você olha uma flor, você vê só a flor. Bonita e tal. As abelhas veem uma fonte de alimento. E as flores contam com as abelhas pra polinizá-las. Então as flores sinalizam pras abelhas: “Ei! Néctar! Aqui!”.  
 
-![flores](flores.jpg "Esquerda: como você vê a flor. Direita: como a abelha vê a mesma, com direito a sombra no meio, indicando onde está o néctar. [Fonte](https://upload.wikimedia.org/wikipedia/commons/6/6b/Mimulus_nectar_guide_UV_VIS.jpg)")
+{{< figure src="flores.jpg" alt="flores" class="std-figure" caption="Esquerda: como você vê a flor. Direita: como a abelha vê a mesma, com direito a sombra no meio, indicando onde está o néctar. [Fonte](https://upload.wikimedia.org/wikipedia/commons/6/6b/Mimulus_nectar_guide_UV_VIS.jpg)">}}
 
 #### **Dancing Queen (Bee)**
 
@@ -36,7 +36,7 @@ Todo dia elas saem da colméia em missão exploratória, encontram fontes de ali
 
 Essa tarefa aparentemente simples de voar por aí exige bastante das abelhas. Requer que elas reconheçam pontos de referência - a árvore que fica perto da colméia, o rio na beira do qual está a flor que encontrou mais cedo. Requer traçar rotas de um ponto ao outro, passando por outros lugares no meio do caminho: tipo quando você tem que passar no mercado, mas é meio contramão, porque agora você está indo visitar sua tia, então é melhor deixar pra ir no mercado na volta, porque aí o desvio é menor, já é caminho.
 
-![bee map](beemap.png "Se você se perder, pergunte pra uma abelha. Ela provavelmente conhece a região.")
+{{< figure src="beemap.png" alt="bee map" class="std-figure" caption="Se você se perder, pergunte pra uma abelha. Ela provavelmente conhece a região.">}}
 
 E elas parecem ter um mapa mental, pra coisas que não estão à vista - ou seja, elas não usam só o Sol como referência (como se acreditou por muito tempo). Se você faz elas acordarem na hora errada (com anestesia), elas ficam confusas quanto a posição do Sol (porque o horário é diferente, o Sol está em outro lugar no céu) e ficam com as rotas bagunçadas inicialmente. Mas logo depois conseguem corrigi-las, ignorando o Sol, e eventualmente acham a colméia e as flores no lugar de sempre, como num dia normal.
 
@@ -46,7 +46,7 @@ Esquerda e direita, igual e diferente. Conceitos associados não a uma “coisa�
 
 Numa tarefa dessas, você tem uma arena em forma de Y (veja foto abaixo). A abelha vê uma cor no círculo inicial, escolhido aleatoriamente entre azul e amarelo (como na foto de exemplo abaixo). Aí passa pelo buraco no meio e vê dois corredores, um com um círculo amarelo e outro com um círculo azul. E a recompensa está no corredor do círculo que tem a mesma cor do inicial.  
 
-![Y maze](ymaze.png "A arena em Y para o teste (adaptado de Avarguès-Weber e Giurfa, 2013).")
+{{< figure src="ymaze.png" alt="Y maze" class="std-figure" caption="A arena em Y para o teste (adaptado de Avarguès-Weber e Giurfa, 2013).">}}
 
 Depois que elas estão treinadas, você pode para de usar as cores originais (azul e amarelo) e mudar pra, sei lá, verde e vermelho, ou até abandonar as cores e usar padrões em preto e branco (tipo, barras verticais ou horizontais). E elas continuam conseguindo obter a recompensa quase sempre, porque elas aprendem o conceito de “igual” - aprendem que a escolha correta é a coisa igual à coisa que elas viram antes.
 

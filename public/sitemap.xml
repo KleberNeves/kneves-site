@@ -17,6 +17,9 @@
     <loc>http://localhost:1313/metaciencia/recs/</loc>
     <lastmod>2021-09-26T18:24:37+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/pesquisa/adjacencias/</loc>
+    <lastmod>2021-09-26T18:20:50+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/neurociencia/</loc>
     <lastmod>2021-09-26T18:20:50+00:00</lastmod>
   </url><url>
@@ -43,6 +46,9 @@
   </url><url>
     <loc>http://localhost:1313/divulgacao/breve-historia-cachorros/</loc>
     <lastmod>2021-02-18T19:18:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/vida-cientista/o-jogo-da-pos-graduacao/</loc>
+    <lastmod>2021-02-18T18:41:28+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/artes/</loc>
     <lastmod>2017-07-25T12:29:06+00:00</lastmod>
@@ -76,6 +82,21 @@
   </url><url>
     <loc>http://localhost:1313/artes/teatro/</loc>
     <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica4/</loc>
+    <lastmod>2017-07-25T12:24:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica3/</loc>
+    <lastmod>2017-07-25T12:23:36+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica2/</loc>
+    <lastmod>2017-07-25T12:19:42+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica1/</loc>
+    <lastmod>2017-07-25T12:19:07+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/sobre-jogos-educativos/</loc>
+    <lastmod>2017-07-24T13:47:36+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jogos-antigos/7-erros/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>

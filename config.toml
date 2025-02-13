@@ -39,3 +39,8 @@ theme = 'hugo-theme-m10c'
   icon = "brand-lattes"
   name = "Lattes"
   url = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4321229T8"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
