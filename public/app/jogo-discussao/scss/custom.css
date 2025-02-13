@@ -1,0 +1,28 @@
+#page_title {
+  font-size: calc(1.1rem + 1.5vw);
+  letter-spacing: -2px;
+  font-weight: bold;
+  background-color: #375a7f;
+}
+
+#name {
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+#genre {
+  font-size: calc(0.9rem + 0.9vw);
+}
+
+.psobre {
+  font-size: 0.9rem;
+}
+
+#cards1 {
+  border: 3px ridge #7e72a3;
+  background: rgba(206, 175, 227,0.3);
+}
+
+#cards2 {
+  border: 3px ridge #7e72a3;
+  background: rgba(206, 175, 227,0.3);
+}

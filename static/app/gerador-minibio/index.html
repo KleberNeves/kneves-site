@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Minibio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+      background-color: #242930;
+      color: white;
+    }
+
+    a {
+      color: #85c0fe;
+    }
+
+    .top-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .left-section {
+      width: 35%;
+    }
+
+    .right-section {
+      width: 60%;
+    }
+
+    #output {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      min-height: 360px;
+    }
+
+    .cv {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-section">
+      
+      <div class="left-section">
+
+        <div class="form-group">
+          <label for="language">Idioma</label>
+          <select id="language" class="form-control">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+
+        <hr>
+
+        <h5>Incluir ...</h5>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeJobDetails" checked>
+          <label class="form-check-label" for="includeJobDetails">Detalhes do cargo/Job details</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeInterests">
+          <label class="form-check-label" for="includeInterests">Interesses profissionais/Professional interests</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeOther" checked>
+          <label class="form-check-label" for="includeOther">Outras coisas/Other stuff</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeEducation" checked>
+          <label class="form-check-label" for="includeEducation">Formação/Education</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeEducationList" checked>
+          <label class="form-check-label" for="includeEducationList">Formação (lista)/Education (list)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeResearch" checked>
+          <label class="form-check-label" for="includeResearch">Histórico: Pesquisa/Research history</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeTeaching">
+          <label class="form-check-label" for="includeTeaching">Histórico: ensino/Teaching history</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includeService">
+          <label class="form-check-label" for="includeService">Histórico: serviço/Service history</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="includePersonal">
+          <label class="form-check-label" for="includePersonal">Interesses pessoais/Personal interests</label>
+        </div>
+      </div>
+
+      
+      <div class="right-section" style="text-align: justify;">
+        <!-- Output Section -->
+        <p id="output" class="p-3 border"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Text variables in different styles and languages
+    const textData = {
+      en: {
+        begin: "Kleber Neves is a meta-scientist and science manager at the <a href='https://www.serrapilheira.org/en/'>Serrapilheira Institute</a>",
+        jobdetails: "where he looks after the Institute's open science policies and impact assessment.",
+        interests: "He is interested in science policy, research funding and open science.",
+        other: "He is on the Board of Directors of <a href='https://asapbio.org/'>ASAPBio</a>, an organization that promotes transparency in scientific communication in the life sciences.",
+        education: "He has a degree in Biomedical Sciences from the Federal University of Rio de Janeiro (UFRJ) and a PhD in Neuroscience from the same institution.",
+        research: "As a scientist, he has worked with brain evolution, reproducibility, complex networks, computational models and scientometrics. He was part of the coordinating team of the <a href='https://www.reprodutibilidade.bio.br/home'>Brazilian Reproducibility Initiative</a>.",
+        teaching: "He has taught courses on biostatistics and the origin of life at UFRJ, as well as neuroscience applied to education at the D'Or Institute.",
+        service: "During his doctorate, he was a student representative on the board of the Brazilian Society of Neuroscience and Behavior (SBNeC), secretary-general of the UFRJ Graduate Students Association and a member of the University Council and Research & Graduate Studies Council of UFRJ.",
+        personal: "In his spare time, he enjoys playing and making games, programming, hiking and drawing.",
+        education_list: "<p class='cv'><strong>2022 - </strong><br>Science Manager<br>Serrapilheira Institute<br><br><strong>2018 - 2022</strong><br>Researcher at the coordinating team<br>Brazilian Reproducibility Initiative<br><br><strong>2014 - 2018</strong><br>PhD in Morphological Sciences - Neurosciences<br>Federal University of Rio de Janeiro<br><br><strong>2010 - 2013</strong><br>Bachelor in Biomedical Sciences<br>Federal University of Rio de Janeiro</p>"
+      },
+      pt: {
+        begin: "Kleber Neves é um metacientista e gestor de ciência no <a href='https://www.serrapilheira.org/'>Instituto Serrapilheira</a>",
+        jobdetails: "onde cuida das políticas de ciência aberta e da avaliação de impacto do Instituto.",
+        interests: "Tem interesse em política científica, financiamento da pesquisa e ciência aberta.",
+        other: "Faz parte do Board of Directors do <a href='https://asapbio.org/'>ASAPBio</a>, organização que promove a transparência na comunicação científica em ciências da vida.",
+        education: "Biomédico formado pela Universidade Federal do Rio de Janeiro (UFRJ) e doutor em Neurociências pela mesma instituição.",
+        research: "Como cientista, já trabalhou com evolução do cérebro, reprodutibilidade, redes complexas, modelagem computacional e cientometria. Foi parte da equipe coordenadora da <a href='https://www.reprodutibilidade.bio.br/'>Iniciativa Brasileira de Reprodutibilidade</a>.",
+        teaching: "Já ofereceu cursos de bioestatística e origem da vida na UFRJ, além de neurociência para a educação no Instituto D'Or.",
+        service: "Durante o doutorado, foi representante discente da diretoria da Sociedade Brasileira de Neurociências e Comportamento (SBNeC), secretário-geral da Associação de Pós-Graduandos da UFRJ e membro do Conselho Universitário e do Conselho de Pós-Graduação da UFRJ.",
+        personal: "No tempo livre, gosta de jogar e fazer jogos, programação, trilhas e de desenhar.",
+        education_list: "<p class='cv'><strong>2022 - </strong><br>Gestor de Ciência<br>Instituto Serrapilheira<br><br><strong>2018 - 2022</strong><br>Pesquisador na equipe coordenadora<br>Iniciativa Brasileira de Reprodutibilidade<br><br><strong>2014 - 2018</strong><br>Doutorado em Ciências Morfológicas - Neurociências<br>Universidade Federal do Rio de Janeiro<br><br><strong>2010 - 2013</strong><br>Graduação em Biomedicina<br>Universidade Federal do Rio de Janeiro</p>"
+      }
+    };
+
+    function updateResume() {
+      const language = document.getElementById('language').value;
+
+      const includeJobDetails = document.getElementById('includeJobDetails').checked;
+      const includeInterests = document.getElementById('includeInterests').checked;
+      const includeOther = document.getElementById('includeOther').checked;
+      const includeEducation = document.getElementById('includeEducation').checked;
+      const includeResearch = document.getElementById('includeResearch').checked;
+      const includeTeaching = document.getElementById('includeTeaching').checked;
+      const includeService = document.getElementById('includeService').checked;
+      const includePersonal = document.getElementById('includePersonal').checked;
+      const includeEducationList = document.getElementById('includeEducationList').checked;
+
+      const selectedText = textData[language];
+      let result = selectedText.begin;
+
+      if (includeJobDetails) {
+        result += ", " + selectedText.jobdetails;
+      } else {
+        result += ". ";
+      }
+
+      if (includeInterests) result += " " + selectedText.interests;
+      if (includeOther) result += " " + selectedText.other;
+      if (includeEducation) result += "<br><br>" + selectedText.education;
+      if (includeResearch) result += " " + selectedText.research;
+      if (includeTeaching) result += " " + selectedText.teaching;
+      if (includeService) result += " " + selectedText.service;
+      if (includePersonal) result += " " + selectedText.personal;
+      if (includeEducationList) result += "<br><br>" + selectedText.education_list;
+
+      document.getElementById('output').innerHTML = result.trim();
+    }
+
+    // Add event listeners to update the résumé on input change
+    document.getElementById('language').addEventListener('change', updateResume);
+
+    document.getElementById('includeJobDetails').addEventListener('change', updateResume);
+    document.getElementById('includeInterests').addEventListener('change', updateResume);
+    document.getElementById('includeOther').addEventListener('change', updateResume);
+    document.getElementById('includeEducation').addEventListener('change', updateResume);
+    document.getElementById('includeResearch').addEventListener('change', updateResume);
+    document.getElementById('includeTeaching').addEventListener('change', updateResume);
+    document.getElementById('includeService').addEventListener('change', updateResume);
+    document.getElementById('includePersonal').addEventListener('change', updateResume);
+    document.getElementById('includeEducationList').addEventListener('change', updateResume);
+
+    // Initial update
+    updateResume();
+  </script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ theme = 'hugo-theme-m10c'
 [params]
   author = 'Kleber Neves'
   description = 'Metacientista e gestor de ciência'
-  avatar = '/img/foto_home.jpg'
+  avatar = '/img/foto-home.jpg'
 
 [params.style]
   darkestColor = "#014FA2"

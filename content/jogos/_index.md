@@ -1,23 +1,34 @@
 ---
-title: 'Jogos Antigos'
+title: 'Jogos'
 date: Thu, 06 Jul 2017 18:02:51 +0000
 draft: false
-layout: 'tag-page'
 type: 'page'
-tag: 'jogos'
-tags: ['group-index']
 ---
 
-> "The obvious objective of video games is to entertain people by surprising them with new experiences."  
-> Shigeru Miyamoto
+## [Jogos Antigos](/jogos-antigos)
 
-**TL;DR:** um texto curto e biográfico sobre como eu comecei a fazer jogos, seguido de uma lista dos jogos que eu fiz ao longo dos anos.
+Jogos que eu fiz há mais de uma década.
 
-Numa época já subjetivamente distante, eu aprendi a programar fazendo jogos pra computador. Estão todos (os que eu guardei) coletados aqui. Ainda faço jogos de tempos em tempos, mas hoje me falta o tempo ocioso de outrora. E eu sou mais exigente.
+## [Jogos Informativos/Educacionais](/jogos-informativos)
 
-Breve histórico: tudo começou com o [RPG Maker 2000](https://en.wikipedia.org/wiki/RPG_Maker). Um amigo meu me mostou o programa (o Rafael, você não conhece não. Valeu, Rafael!). Esse provavelmente é um desses eventos singulares e aparentemente pequenos mas que mudam a vida de alguém. Do RPG Maker 2000 passei pro [RPG Maker XP](https://en.wikipedia.org/wiki/RPG_Maker#RPG_Maker_XP), que vinha com uma linguagem de scripting, RGSS (Ruby Game Scripting System), derivada de [Ruby](https://www.ruby-lang.org/en/) (que foi minha primeira linguagem de programação favorita). Usando os tutoriais do João Neto (obrigado, João) na extinta [JogosRPG](https://web.archive.org/web/20071102192325/http://www.jogosrpg.com.br/) (depois [MundoRPGMaker](https://www.facebook.com/mundorpgmaker), que já acabou também), eu aprendi bastante de Ruby. Por uns anos eu fui parte da comunidade do site, ajudei outras pessoas a aprenderem, fizemos jogos juntos. A internet era diferente, acho. Ou eu era diferente. Enfim, foi assim que tudo começou, estimo que entre 2003 e 2006. Sou grato aos desenvolvedores dessas ferramentas como o RPG Maker e o Game Maker e às pessoas que me ajudaram em particular. O resto da história até aqui fica pra outro lugar, porque a ideia era fazer um _breve_ histórico.
+Jogos com temas científicos ou informacionais.
 
-Embora eu tenha começado com o RPG Maker, eu nunca terminei um RPG sequer. Mas eu guardei vários jogos daquela época, feitos no [Game Maker](https://www.yoyogames.com/gamemaker/). No processo de fazer esses jogos todos eu aprendi bastante do que eu sei sobre computadores e software.
+## Outras Coisas
 
-<hr>
+Coisas relacionadas a jogos e jogos mais recentes que não se encaixam nas categorias anteriores.
 
+#### [Jogo da Discussão](/app/jogo-discussao)
+
+Para pessoas que gostam de discutir temas apaixonadamente por hobby, esse jogo gera uma infinidade de polêmicas vazias [(nome de um bom quadro esportivo)](https://www.youtube.com/playlist?list=PL-e7oyEds72_1Q4DXnARDspsQ10EyaXjn).
+
+#### [Imagem & Ação com temas científicos](/app/imagem-acao-ciencia) 
+
+Para brincar de mímica com cientistas (nas versões biologia, neurociências e ecologia).
+
+Se preferir imprimir, tem os arquivos [aqui](https://www.dropbox.com/scl/fo/7ymtsg4csusij2xyq01mf/AIzz1egpz3YgaBxbbFxNl8M?rlkey=aacwm29o6s5hayc5lqip8lh5f&dl=0).
+
+#### [Gerador de videogames](/app/gerador-videogames)
+
+Um gerador de propostas para videogames, feito com a intenção de ajudar a pensar em ideias de jogos e *game design*.
+
+Acesse [aqui](/app/gerador-videogames).

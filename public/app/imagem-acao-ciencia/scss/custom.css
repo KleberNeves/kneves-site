@@ -1,0 +1,25 @@
+#page_title {
+  font-size: calc(1.1rem + 1.5vw);
+  letter-spacing: -2px;
+  font-weight: bold;
+  background-color: #473453;
+}
+
+.psobre {
+  font-size: 0.9rem;
+}
+
+.card_row_block {
+  border: 5px ridge #7f65cf;
+  background: #473453;
+}
+
+.card_text {
+  text-align: left;
+}
+
+.titles_text {
+  text-align: right;
+  font-weight: bold;
+  color: #9f70ef;
+}

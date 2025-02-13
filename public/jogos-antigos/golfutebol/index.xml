@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golfutebol on Kleber Neves</title>
+    <link>http://localhost:1313/jogos-antigos/golfutebol/</link>
+    <description>Recent content in Golfutebol on Kleber Neves</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/jogos-antigos/golfutebol/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

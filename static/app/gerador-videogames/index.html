@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gerador de nomes de videogames">
+  <meta name="author" content="Kleber Neves">
+  <title>Gerador de Nomes de Jogos</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="scss/theme.css" rel="stylesheet">
+  <link href="scss/custom.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png"/>
+</head>
+
+<body>
+
+  <div class="container text-center">
+    <div class="row mb-4">
+      <div class="col">
+        <h1 id="page_title">Gerador de Nomes de Jogos</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p id="name">Clique em Gerar!</p>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col">
+        <p id="genre">Gênero: ???</p>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col">
+        <button type="button" id="generateBtn" class="btn btn-primary btn">Gerar!</button>
+      </div>
+    </div>
+    <div class="row justify-content-md-center mb-3">
+      <div class="col-md-auto">
+        <div class="form-check form-switch">
+          <input id="cb_genre" class="form-check-input" role="switch" type="checkbox" checked>
+          <label class="form-check-label" for="cb_genre">Gerar gênero</label>
+        </div>
+      </div>
+      <div class="col-md-auto">
+        <div class="form-check form-switch">
+          <input id="cb_genre2" class="form-check-input" role="switch" type="checkbox" checked>
+          <label class="form-check-label" for="cb_genre2">Permitir combinações de gêneros</label>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center mb-5">
+      <div class="col-md-auto">
+        <div class="form-check form-switch">
+          <input id="cb_choose" class="form-check-input" role="switch" type="checkbox">
+          <label class="form-check-label" for="cb_choose">Escolher palavra:</label>
+        </div>
+      </div>
+      <div class="col-md-auto">
+        <input id="tb_word" type="text"></input>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h5>Sobre</h5>
+        <p class="psobre">
+          Esse é um gerador de nomes/conceitos de videogames. A intenção era praticar <i>game design</i> e ter desafios e inspirações - ajudar a levar o pensamento em outras direções. São 4942 palavras no total, que podem ser combinadas em 6.326.616.080 nomes de jogos diferentes (embora, possivelmente, muito parecidas).
+        </p>
+        <p class="psobre">
+          As palavras vieram de uma lista antiga de videogames da <a
+            href="https://web.archive.org/web/20100304060556/http://www.gamerevolution.com/game/all/all/long_name/asc">Game
+            Revolution</a>, a <a href="http://nltk.org/index.html">biblioteca NLTK</a> e a <a
+            href="http://www.freebsd.org/cgi/cvsweb.cgi/src/share/dict/web2?rev=1.12;content-type=text/plain">lista de palavras do FreeBSD
+            </a>. As palavras foram parseadas da lista de videogames, classificadas e cruzadas com a lista geral. O resultado são umas combinações de palavras que soam mais ou menos como nomes de jogos.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

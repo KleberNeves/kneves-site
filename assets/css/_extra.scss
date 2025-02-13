@@ -11,6 +11,20 @@ blockquote {
     }
 }
 
+.std-figure {
+  display: block;
+  max-width: 480px;
+  max-height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: center;
+}
 
 /*Tag page styling*/
 

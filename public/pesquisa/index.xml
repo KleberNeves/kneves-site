@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pesquisa on Kleber Neves</title>
+    <link>http://localhost:1313/pesquisa/</link>
+    <description>Recent content in Pesquisa on Kleber Neves</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Sep 2021 18:20:50 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pesquisa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adjacências científicas</title>
+      <link>http://localhost:1313/pesquisa/adjacencias/</link>
+      <pubDate>Sun, 26 Sep 2021 18:20:50 +0000</pubDate>
+      <guid>http://localhost:1313/pesquisa/adjacencias/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Se a gente soubesse o que tá fazendo, o nome não seria pesquisa, seria?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Albert Einstein&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Coisas que eu fiz que no fundo são piadas, paródias e materiais vários que tocam no tema ciência.&lt;/p&gt;&#xA;&lt;h3 id=&#34;músicasartesmusica&#34;&gt;&lt;a href=&#34;http://localhost:1313/artes/musica&#34;&gt;Músicas&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Na página de &lt;a href=&#34;http://localhost:1313/artes/musica&#34;&gt;músicas&lt;/a&gt; você encontra o &lt;em&gt;Rap do Cajal&lt;/em&gt; (sobre o neurocientista Santiago Ramón y Cajal) e &lt;em&gt;Contagem, Dosagem&lt;/em&gt; (uma paródia científica da música &lt;em&gt;Cumade, Cumpade&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;h3 id=&#34;fake-papersmiscfake-papers&#34;&gt;&lt;a href=&#34;http://localhost:1313/misc/fake-papers&#34;&gt;&lt;em&gt;Fake papers&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Textos com a aparência de artigos científicos, mas falando de experimentos absolutamente falsos sobre questões fictícias.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Outras pesquisas</title>
+      <link>http://localhost:1313/pesquisa/outras/</link>
+      <pubDate>Sun, 26 Sep 2021 18:20:50 +0000</pubDate>
+      <guid>http://localhost:1313/pesquisa/outras/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Se a gente soubesse o que tá fazendo, o nome não seria pesquisa, seria?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Albert Einstein&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Coleções de links e breves descrições sobre pesquisa que eu já fiz em outras áreas que não &lt;a href=&#34;http://localhost:1313/metaciencia&#34;&gt;metaciência&lt;/a&gt; ou &lt;a href=&#34;http://localhost:1313/neurociencia&#34;&gt;neurociência&lt;/a&gt;. (última atualização: jan/24)&lt;/p&gt;&#xA;&lt;p&gt;Meus interesses passeiam bastante entre áreas (algo que eu prefiro ver como uma vantagem). Meu doutorado foi em neurociência evolutiva, na UFRJ, num programa de Ciências Morfológicas. Em particular, eu estudei a relação entre capacidade cognitiva e composição celular do cérebro com cérebros de aves e modelos computacionais inspirados pelo desenvolvimento do sistema nervoso. Nessa época, eu cultivei também um interesse em sistemas complexos (depois de uma escola de verão no &lt;a href=&#34;https://santafe.edu/&#34;&gt;Santa Fe Institute&lt;/a&gt;) e no uso de redes complexas e modelos baseados em agentes como ferramentas úteis pra pesquisa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tese de doutorado</title>
+      <link>http://localhost:1313/pesquisa/tese/</link>
+      <pubDate>Thu, 06 Jul 2017 17:58:11 +0000</pubDate>
+      <guid>http://localhost:1313/pesquisa/tese/</guid>
+      <description>&lt;p&gt;Meu doutorado foi feito no &lt;a href=&#34;https://ppgcm.icb.ufrj.br/&#34;&gt;Programa de Pós-Graduação em Ciências Morfológicas&lt;/a&gt; da UFRJ, sob orientação da &lt;a href=&#34;https://suzanaherculanohouzel.com/&#34;&gt;Suzana Herculano-Houzel&lt;/a&gt; e do &lt;a href=&#34;https://www.if.ufrj.br/docentes/bruno-motta/&#34;&gt;Bruno Mota&lt;/a&gt;. A pesquisa do laboratório girava em torno de neuroanatomia comparada e evolução do cérebro.&lt;/p&gt;&#xA;&lt;p&gt;A minha tese tinha como título &lt;a href=&#34;https://www.dropbox.com/scl/fi/flpe6mrdbtyhruz808ftl/Tese-Kleber-Neves.pdf?rlkey=6ss4ijd7itapc26ku9ggvw4b3&amp;amp;st=onba4cag&amp;amp;dl=0&#34;&gt;&amp;ldquo;Análise comparada da variação do número de neurônios e da relação com a capacidade cognitiva&amp;rdquo;&lt;/a&gt;. Resumo abaixo:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Tanto o tamanho do cérebro quanto o número de neurônios variam bastante entre indivíduos da mesma espécie e entre espécies diferentes. Esta tese trata de três tópicos que dizem respeito a essa variação em traços neuroanatômicos: as origens, se essa variação está correlacionada com performance cognitiva e como a evolução atua sobre essa variação.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

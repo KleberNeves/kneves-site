@@ -2,10 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/desenvolvimento-de-jogos/donkey-kong-trio/</loc>
+    <loc>http://localhost:1313/dados/</loc>
+    <lastmod>2021-10-17T13:33:55+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ensino/</loc>
+    <lastmod>2021-10-17T13:33:55+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sobre/</loc>
+    <lastmod>2021-10-17T13:20:59+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/neurociencia/recs/</loc>
+    <lastmod>2021-09-26T18:27:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/metaciencia/recs/</loc>
+    <lastmod>2021-09-26T18:24:37+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/neurociencia/</loc>
+    <lastmod>2021-09-26T18:20:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pesquisa/outras/</loc>
+    <lastmod>2021-09-26T18:20:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/metaciencia/</loc>
+    <lastmod>2021-09-26T18:16:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/coisas-impressionantes-que-abelhas-fazem/</loc>
+    <lastmod>2021-02-18T19:19:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/sonhos-lucidos/</loc>
+    <lastmod>2021-02-18T19:18:49+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dados/azar-botafogo/</loc>
+    <lastmod>2021-02-18T19:18:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/sexo-baratas/</loc>
+    <lastmod>2021-02-18T19:18:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/sobre-etologia-e-dragoes/</loc>
+    <lastmod>2021-02-18T19:18:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/breve-historia-cachorros/</loc>
+    <lastmod>2021-02-18T19:18:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/biscuit/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/desenho/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/misc/fake-papers/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/misc/geradores/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/musica/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textos/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/misc/novelas/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/misc/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/pirografia/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artes/teatro/</loc>
+    <lastmod>2017-07-25T12:29:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/7-erros/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/group-index/</loc>
+    <loc>http://localhost:1313/jogos-antigos/bolinha-saltitante/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/ciencia-imagem-acao/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/dbz/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/donkey-kong-trio/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/ghost-rider/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/golfutebol/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/jogo-pan/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/jogos/</loc>
@@ -14,27 +107,80 @@
     <loc>http://localhost:1313/jogos/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/jogos-antigos/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/jogos-antigos/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/desenvolvimento-de-jogos/make-the-way/</loc>
+    <loc>http://localhost:1313/tags/jogos-informativos/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/desenvolvimento-de-jogos/ornis-adventure/</loc>
+    <loc>http://localhost:1313/jogos-antigos/lanchonete/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/desenvolvimento-de-jogos/</loc>
+    <loc>http://localhost:1313/jogos-antigos/md-diagnosis/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/md-emergency/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/md-surgery/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/make-the-way/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/moving-platforms/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/ornis-adventure/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/perspectivas/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/pokemon-dtk/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/prince-of-persia-stickmen/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/sistema-imune/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2017-07-06T18:02:51+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/jogos-informativos/vida-cientista/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/volley-1/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/waiter-service/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-antigos/winning-eight/</loc>
+    <lastmod>2017-07-06T18:02:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jogos-informativos/</loc>
+    <lastmod>2017-07-06T17:59:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/</loc>
+    <lastmod>2017-07-06T17:58:45+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/pesquisa/</loc>
+    <lastmod>2017-07-06T17:58:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pesquisa/tese/</loc>
     <lastmod>2017-07-06T17:58:11+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2017-05-08T21:38:36+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/divulgacao/neuronio-apaixonado/</loc>
   </url>
 </urlset>
