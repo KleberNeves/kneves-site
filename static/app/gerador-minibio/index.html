@@ -18,18 +18,18 @@
     }
 
     .top-section {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
       margin-bottom: 20px;
     }
 
-    .left-section {
-      width: 35%;
+    .options-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
     }
 
+    .left-section,
     .right-section {
-      width: 60%;
+      width: 48%;
     }
 
     #output {
@@ -42,14 +42,18 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 0.9rem;
     }
-
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="top-section">
-      
+
+    <div class="top-section" style="text-align: justify;">
+      <!-- Output Section -->
+      <p id="output" class="p-3 border"></p>
+    </div>
+
+    <div class="options-section">
       <div class="left-section">
 
         <div class="form-group">
@@ -99,12 +103,6 @@
           <input type="checkbox" class="form-check-input" id="includePersonal">
           <label class="form-check-label" for="includePersonal">Interesses pessoais/Personal interests</label>
         </div>
-      </div>
-
-      
-      <div class="right-section" style="text-align: justify;">
-        <!-- Output Section -->
-        <p id="output" class="p-3 border"></p>
       </div>
     </div>
 
