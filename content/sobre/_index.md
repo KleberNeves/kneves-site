@@ -7,8 +7,10 @@ draft: false
 {{< rawhtml >}}
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <img src="/img/eu1.webp" alt="Image 1" style="height: 300px;">
-  <img src="/img/eu2.webp" alt="Image 2" style="height: 300px;">
+  <img src="/img/foto-eu4.jpg" alt="Image 4" style="max-height: 300px;">
+  <img src="/img/foto-eu1.jpg" alt="Image 1" style="max-height: 300px;">
+  <img src="/img/foto-eu2.jpg" alt="Image 2" style="max-height: 300px;">
+  <img src="/img/foto-eu3.jpg" alt="Image 3" style="max-height: 300px;">
 </div>
 
 {{< /rawhtml >}}
