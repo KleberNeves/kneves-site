@@ -1,4 +1,4 @@
-baseURL = 'https://kneves.netlify.app/'
+baseURL = 'https://kneves.org/'
 languageCode = 'en-us'
 title = 'Kleber Neves'
 theme = 'hugo-theme-m10c'
