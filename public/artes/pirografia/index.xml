@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pirografia on Kleber Neves</title>
-    <link>http://localhost:1313/artes/pirografia/</link>
+    <link>https://kneves.org/artes/pirografia/</link>
     <description>Recent content in Pirografia on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/artes/pirografia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/artes/pirografia/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

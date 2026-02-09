@@ -4,7 +4,6 @@ date: Mon, 08 May 2017 21:38:36 +0000
 draft: false
 type: 'page'
 layout: single
-title: ''
 subtitle: ''
 ---
 

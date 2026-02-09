@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kleber Neves</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kneves.org/tags/</link>
     <description>Recent content in Tags on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Jul 2017 18:02:51 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jogos</title>
-      <link>http://localhost:1313/tags/jogos/</link>
+      <link>https://kneves.org/tags/jogos/</link>
       <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jogos/</guid>
+      <guid>https://kneves.org/tags/jogos/</guid>
       <description></description>
     </item>
     <item>
       <title>Jogos-Antigos</title>
-      <link>http://localhost:1313/tags/jogos-antigos/</link>
+      <link>https://kneves.org/tags/jogos-antigos/</link>
       <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jogos-antigos/</guid>
+      <guid>https://kneves.org/tags/jogos-antigos/</guid>
       <description></description>
     </item>
     <item>
       <title>Jogos-Informativos</title>
-      <link>http://localhost:1313/tags/jogos-informativos/</link>
+      <link>https://kneves.org/tags/jogos-informativos/</link>
       <pubDate>Thu, 06 Jul 2017 18:02:51 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jogos-informativos/</guid>
+      <guid>https://kneves.org/tags/jogos-informativos/</guid>
       <description></description>
     </item>
   </channel>

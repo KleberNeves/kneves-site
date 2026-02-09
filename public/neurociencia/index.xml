@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neurociências on Kleber Neves</title>
-    <link>http://localhost:1313/neurociencia/</link>
+    <link>https://kneves.org/neurociencia/</link>
     <description>Recent content in Neurociências on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Sep 2021 18:27:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/neurociencia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/neurociencia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notas sobre neurociência e outras coisas</title>
-      <link>http://localhost:1313/neurociencia/recs/</link>
+      <link>https://kneves.org/neurociencia/recs/</link>
       <pubDate>Sun, 26 Sep 2021 18:27:16 +0000</pubDate>
-      <guid>http://localhost:1313/neurociencia/recs/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Se a gente soubesse o que tá fazendo, o nome não seria pesquisa, seria?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Albert Einstein&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Notas e recomendações de leitura sobre assuntos relacionados às neurociências, biologia e outros interesses de pesquisa. (última atualização: jan/25)&lt;/p&gt;&#xA;&lt;h3 id=&#34;evolução-do-cérebro-e-da-cognição&#34;&gt;Evolução do cérebro e da cognição&lt;/h3&gt;&#xA;&lt;p&gt;A questão que eu busquei responder no meu doutorado foi, bem resumidamente: &amp;ldquo;pra que serve ter muitos neurônios?&amp;rdquo;. Uma hipótese é de que mais neurônios permitem mais flexibilidade comportamental. Minhas conclusões tentativas estão na minha &lt;a href=&#34;http://localhost:1313/pesquisa/tese&#34;&gt;tese&lt;/a&gt;. Hoje, tendo a achar que existem jeitos de explorar a questão com simulações (algo que &lt;a href=&#34;https://scholar.google.co.uk/citations?user=9L_gpmUAAAAJ&amp;amp;hl=en&#34;&gt;um colaborador&lt;/a&gt; está tentando fazer). Embora eu esteja um pouco afastado do campo, se um dia eu retornasse, meu ponto de partida conceitual serão &lt;a href=&#34;http://corinalogan.com/publications.html&#34;&gt;os papers da Corina Logan sobre flexibilidade comportamental&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://kneves.org/neurociencia/recs/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Se a gente soubesse o que tá fazendo, o nome não seria pesquisa, seria?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Albert Einstein&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Notas e recomendações de leitura sobre assuntos relacionados às neurociências, biologia e outros interesses de pesquisa. (última atualização: jan/25)&lt;/p&gt;&#xA;&lt;h3 id=&#34;evolução-do-cérebro-e-da-cognição&#34;&gt;Evolução do cérebro e da cognição&lt;/h3&gt;&#xA;&lt;p&gt;A questão que eu busquei responder no meu doutorado foi, bem resumidamente: &amp;ldquo;pra que serve ter muitos neurônios?&amp;rdquo;. Uma hipótese é de que mais neurônios permitem mais flexibilidade comportamental. Minhas conclusões tentativas estão na minha &lt;a href=&#34;https://kneves.org/pesquisa/tese&#34;&gt;tese&lt;/a&gt;. Hoje, tendo a achar que existem jeitos de explorar a questão com simulações (algo que &lt;a href=&#34;https://scholar.google.co.uk/citations?user=9L_gpmUAAAAJ&amp;amp;hl=en&#34;&gt;um colaborador&lt;/a&gt; está tentando fazer). Embora eu esteja um pouco afastado do campo, se um dia eu retornasse, meu ponto de partida conceitual serão &lt;a href=&#34;http://corinalogan.com/publications.html&#34;&gt;os papers da Corina Logan sobre flexibilidade comportamental&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

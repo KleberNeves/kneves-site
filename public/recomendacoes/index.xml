@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recomendações on Kleber Neves</title>
-    <link>http://localhost:1313/recomendacoes/</link>
+    <link>https://kneves.org/recomendacoes/</link>
     <description>Recent content in Recomendações on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/recomendacoes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/recomendacoes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

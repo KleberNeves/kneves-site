@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <title>Bioestatística com R - 4 - Correlação e Regressão // Kleber Neves</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.144.1">
+    <meta name="generator" content="Hugo 0.152.2">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Kleber Neves" />
     <meta name="description" content="" />
@@ -23,7 +23,7 @@ Parte 4
 Correlação Pra começar, vamos importar duas tabelas novas. Uma possui dados sobre o tamanho do corpo de diferentes animais e a outra sobre longevidade de diferentes animais: bodymass.csv e longevity.csv
 body.size.data = read.table(&#34;bodymass.csv&#34;, sep=&#34;;&#34;, header = T) longevity.data = read.table(&#34;longevity.csv&#34;, sep=&#34;;&#34;, header = T) O primeiro passo é fundir as duas tabelas, pra conseguir uma tabela que tenha animais com seus respectivos tamanhos corporais e longevidades. Pra isso, existe a função merge. Mas antes, vale olhar as tabelas, pra saber como fazer isso.">
 
-    <meta property="og:url" content="http://localhost:1313/ensino/tutoriais-bioestatistica/bioestatistica4/">
+    <meta property="og:url" content="https://kneves.org/ensino/tutoriais-bioestatistica/bioestatistica4/">
   <meta property="og:site_name" content="Kleber Neves">
   <meta property="og:title" content="Bioestatística com R - 4 - Correlação e Regressão">
   <meta property="og:description" content="Esse é o último tutorial dessa introdução mínima a bioestatística com R. Vamos analisar correlações entre variáveis e fazer uma regressão. Todas as tabelas usadas nos exemplos estão nessa pasta compartilhada.
@@ -43,7 +43,7 @@ body.size.data = read.table(&#34;bodymass.csv&#34;, sep=&#34;;&#34;, header = T)
   </head>
   <body>
     <header class="app-header">
-      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/img/foto-home.jpg" alt="Kleber Neves" /></a>
+      <a href="https://kneves.org/"><img class="app-header-avatar" src="/img/foto-home.jpg" alt="Kleber Neves" /></a>
       <span class="app-header-title">Kleber Neves</span>
       <p>Metacientista e gestor de ciência</p>
       <div class="app-header-social">

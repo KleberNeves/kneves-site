@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Winning Eight Pro Revolution Soccer 2.0 on Kleber Neves</title>
-    <link>http://localhost:1313/jogos-antigos/winning-eight/</link>
+    <link>https://kneves.org/jogos-antigos/winning-eight/</link>
     <description>Recent content in Winning Eight Pro Revolution Soccer 2.0 on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/jogos-antigos/winning-eight/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/jogos-antigos/winning-eight/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

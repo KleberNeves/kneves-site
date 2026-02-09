@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artes on Kleber Neves</title>
-    <link>http://localhost:1313/artes/</link>
+    <link>https://kneves.org/artes/</link>
     <description>Recent content in Artes on Kleber Neves</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/artes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kneves.org/artes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
